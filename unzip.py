@@ -1,3 +1,4 @@
+"""Скрипт по разархивации архивов"""
 import os
 import time
 import zipfile
@@ -19,5 +20,5 @@ while True:
             except zipfile.LargeZipFile:
                 print(f"Архив {file} слишком большой для разархивации")
     
-    time.sleep(5)  # Проверка папки каждые 10 секунд
+    time.sleep(5)  # Проверка папки каждые 5 секунд
 
